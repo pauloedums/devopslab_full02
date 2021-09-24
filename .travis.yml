@@ -19,3 +19,5 @@ deploy:
   api_key: $HEROKU_API_KEY
   edge: true 
   app: devsecopssre-paulo
+  on:
+    all_branches: true
